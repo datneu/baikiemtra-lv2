@@ -5,7 +5,7 @@ import { MdDeleteOutline } from "react-icons/md";
 import styles from './TodoListPage.module.css';
 import TodoItem from './TodoItem';
 
-const TodoListPage = () => {
+const TodoList = () => {
     const [menuActive, setMenuActive] = useState("all");
     const [todo, setTodo] = useState("");
     const [todoList, setTodoList] = useState([]);
@@ -53,7 +53,7 @@ const TodoListPage = () => {
     return (
         <>
             <header className={styles.header}>
-                <h1 className={styles.title}>#todo</h1>
+                <h1 className={styles.title}>todo-app</h1>
             </header>
 
             <main className={styles.main}>
@@ -165,4 +165,4 @@ const TodoListPage = () => {
     )
 }
 
-export default TodoListPage
+export default TodoList

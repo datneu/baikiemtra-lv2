@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styles from './TodoListPage.module.css'
+import styles from './TodoListPage.module.css';
 import { MdDeleteOutline } from "react-icons/md";
 
 const TodoItem = (props) => {
